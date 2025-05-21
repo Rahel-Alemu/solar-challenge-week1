@@ -1,3 +1,31 @@
-data/
-*.csv
-.ipynb_checkpoints/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environment folders
+venv/
+env/
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Python egg metadata
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Ignore data files if you want to keep repo clean
+# Uncomment if you want to exclude your data folder from git
+# data/
